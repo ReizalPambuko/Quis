@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+.quis{
+  margin: auto;
+  width: 90%!important;
+  padding: 7% 0;
+}
+input{
+  margin-top: 10px;
+  margin-right: 8px;
+}
+label{
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+#btn{
+  outline: none;
+  border: none;
+  background-color: #373737;
+  color: #ECEDFF;
+  padding: 13px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 30px;
+}
+h2{
+  margin: 40px 0;
+  font-size: 1.4rem;
+}
+.names{
+  padding: 7px;
+  outline: none;
+}
+hr{
+  margin: 20px 0;
+}
+.cek{
+  outline: none;
+  padding: 10px 24px;
+  background-color: #373737;
+  color: #ECEDFF;
+  border: none;
+  border-radius: 10px;
+}
+.nilais{
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+#nilai{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+@media(max-width: 576px){
+  label{
+    font-size: 1.1rem;
+  }
+}

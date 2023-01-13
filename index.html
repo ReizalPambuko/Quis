@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Quis Gabut</title>
+  
+  <!-- HTML -->
+  
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <section class="quis">
+    
+  <h4>Nama :</h4>
+  <input type="text" placeholder="Nama" class="names">
+  <br>
+  <br>
+    <div class="jawaban"></div>
+    <br>
+  <button class="cek" onclick="cekk()">Cek</button>
+  <hr>
+  <h2>Pilihlah Jawaban Yang Benar</h2>
+  <label for="" class="nilais"> Hasil Nilai :</label><div id="nilai">
+    
+  </div>
+  <br>
+  
+  
+  
+  <label>1. Asep pergi Nyari sesuatu terus pulang babak belur.apa yang dia cari?</label>
+  <br>
+  <input type="radio" name="jawab1"> Makan <br>
+  <input type="radio" name="jawab1"> Cewek <br>
+  <input type="radio" name="jawab1"> Duit <br>
+  <input type="radio" id="jwb1" name="jawab1"> Masalah <br>
+  <div id="hasil1"></div>
+ 
+<br><br>
+ 
+  <label>2. 1 + 2 = 6
+  <br>
+   2 + 3 = 11
+   <br>
+   3 + 4 = 16
+   <br>
+   4 + 5 = ?
+  </label>
+  <br>
+  <input type="radio" id="jwb2" name="jawab2"> 9 <br>
+  <input type="radio" name="jawab2"> 20 <br>
+  <input type="radio" name="jawab2"> 10 <br>
+  <input type="radio" name="jawab2"> 25 <br> 
+  <div id="hasil2"></div>
+  
+  <br><br>
+ 
+  <label>3. A = D
+  <br>
+   B = H
+   <br>
+   C = L
+   <br>
+   D = ?
+  </label>
+  <br>
+  <input type="radio" name="jawab3"> P <br>
+  <input type="radio" name="jawab3"> L <br>
+  <input type="radio" name="jawab3" id="jwb3"> A <br>
+  <input type="radio" name="jawab3"> N <br> 
+  <div id="hasil3"></div>
+  
+  
+  
+  <br><br>
+  
+  <label>
+    4. Ranger yang bisa Terbang?
+  </label>
+  <br>
+  <input type="radio" name="jawab4" id="jwb4">Manusia gak bisa terbang Pea<br>
+  <input type="radio" name="jawab4"> Merah <br>
+  <input type="radio" name="jawab4"> Semua <br>
+  <input type="radio" name="jawab4"> Kuning <br>
+  <div id="hasil4"></div>
+  
+  
+  <br><br>
+  
+  <label>5. satu + satu = ?
+  </label>
+  <br>
+  <input type="radio" name="jawab5"> Two <br>
+  <input type="radio" name="jawab5"> 2 <br>
+  <input type="radio" name="jawab5" id="jwb5"> Dua <br>
+  <input type="radio" name="jawab5"> ii <br>
+
+  <div id="hasil5"></div>
+  
+  <button onclick="hs()" id="btn">Hasil</button>
+  
+    
+  </section>
+ 
+  
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
